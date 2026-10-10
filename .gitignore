@@ -1,0 +1,10 @@
+# Maven编译输出目录
+target/
+.idea/
+*.pem
+
+# 本地开发配置（含密钥）
+**/application-dev.yml
+# 示例，写入.gitignore
+*.env
+config-secret.json
